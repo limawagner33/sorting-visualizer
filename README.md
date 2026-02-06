@@ -72,4 +72,4 @@ npm run dev
 
 ---
 ### 📬. Contato
->>Projeto desenvolvido por Wagner Lima. Conecte-se comigo no **[Linkedin](https://www.linkedin.com/in/wagner-matos-de-lima/)**.
+>Projeto desenvolvido por Wagner Lima. Conecte-se comigo no **[Linkedin](https://www.linkedin.com/in/wagner-matos-de-lima/)**.
