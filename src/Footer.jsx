@@ -1,3 +1,4 @@
+// Componente de rodapé com links de contato e redes sociais
 import React from 'react';
 import './Footer.css'; 
 
