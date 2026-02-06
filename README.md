@@ -47,10 +47,12 @@ Quick Sort: Implemented recursively using a partition logic, demonstrating under
 
 💻 How to Run Locally
 1. Clone the repository
-
-```Bash```
-```git clone [https://github.com/limawagner33/sorting-visualizer](https://github.com/your-username/sorting-visualizer.git)```
-
+```javascript
+Bash
+```
+```javascript
+git clone [https://github.com/limawagner33/sorting-visualizer](https://github.com/your-username/sorting-visualizer.git)```
+```
 2. Install dependencies
 
 ```Bash```
