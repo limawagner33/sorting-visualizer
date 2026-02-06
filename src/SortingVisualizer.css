@@ -1,0 +1,104 @@
+body {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.visualizer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #252526;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+input[type=range] {
+  cursor: pointer;
+}
+
+button {
+  background-color: #0e639c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #1177bb;
+}
+
+button:disabled {
+  background-color: #4a4a4a;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.algo-btn {
+  background-color: #2d2d2d;
+  border: 1px solid #3e3e42;
+}
+
+.algo-btn:hover:not(:disabled) {
+  background-color: #3e3e42;
+}
+
+.divider {
+  width: 1px;
+  height: 30px;
+  background-color: #555;
+  margin: 0 10px;
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 600px; /* Altura fixa para as barras */
+  width: 90%;
+  margin-top: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.array-bar {
+  background-color: #40E0D0;
+  margin: 0 1px;
+  transition: height 0.1s ease; /* Suaviza visualmente */
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
