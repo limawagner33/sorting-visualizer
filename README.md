@@ -32,8 +32,9 @@ Handling animations in React usually requires complex libraries. In this project
 
 ```javascript
 // Custom delay function to control animation speed
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));```
 
+```
 ### 2. State Management & Immutability
 Used useState and useRef to manage the array state and control the execution flow (preventing the user from breaking the app while sorting is active).
 
