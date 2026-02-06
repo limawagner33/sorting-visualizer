@@ -1,3 +1,4 @@
+// Lógica core dos algoritmos de ordenação e controle de visualização
 import React, { useState, useEffect, useRef } from 'react';
 import './SortingVisualizer.css'; // O CSS está logo abaixo
 
