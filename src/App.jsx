@@ -1,3 +1,4 @@
+// Componente container principal da aplicação
 import SortingVisualizer from './SortingVisualizer';
 import Footer from './Footer';
 
