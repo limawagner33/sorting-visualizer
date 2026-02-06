@@ -1,59 +1,58 @@
-# 📊 Sorting Algorithms Visualizer
+# 📊 Visualizador de Algoritmos de Ordenação
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-An interactive web application built to visualize classic sorting algorithms in action. This project demonstrates knowledge of **Algorithms**, **React Hooks**, and **Asynchronous JavaScript**.
+Uma aplicação web interativa desenvolvida para visualizar algoritmos clássicos de ordenação em ação. Este projeto demonstra conhecimentos em **Estrutura de Dados e Algoritmos**, **React Hooks** e **JavaScript Assíncrono**.
 
-## 🚀 Live Demo
+## 🚀 Live Demo (Teste Online)
 
-👉 **[Click here to test the application online](https://sorting-visualizer-limawagner33.vercel.app/)**
-
----
-
-## 🛠 Features
-
-- **Multi-Algorithm Support:** Visualize both **Bubble Sort** (O(n²)) and **Quick Sort** (O(n log n)).
-- **Real-time Control:** Adjustable sorting speed and array size.
-- **Visual Feedback:**
-  - 🟦 **Turquoise:** Default state.
-  - 🟥 **Red:** Comparing elements.
-  - 🟪 **Purple:** Swapping elements.
-  - 🟩 **Green:** Sorted elements.
-- **Responsive Design:** Clean UI built with modern CSS.
+👉 **[Clique aqui para testar a aplicação no ar](https://sorting-visualizer-limawagner33.vercel.app/)**
 
 ---
 
-## 🧠 Technical Concepts Applied
+## 🛠 Funcionalidades
 
-### 1. Asynchronous Animation Control
-Handling animations in React usually requires complex libraries. In this project, I implemented a custom `sleep` function combined with `async/await` inside the sorting loops. This allows the UI to update visually at each step without blocking the JavaScript main thread.
+- **Múltiplos Algoritmos:** Visualização do **Bubble Sort** (O(n²)) e **Quick Sort** (O(n log n)).
+- **Controle Total:** Ajuste de velocidade da animação e tamanho do array em tempo real.
+- **Feedback Visual:** Sistema de cores para facilitar o entendimento:
+  - 🟦 **Turquesa:** Estado padrão.
+  - 🟥 **Vermelho:** Comparando elementos.
+  - 🟪 **Roxo:** Trocando elementos de lugar (Swap).
+  - 🟩 **Verde:** Elementos já ordenados.
+- **Design Responsivo:** Interface limpa construída com CSS moderno.
+
+---
+
+## 🧠 Conceitos Técnicos Aplicados
+
+### 1. Controle de Animação Assíncrona
+Manipular animações em algoritmos de ordenação geralmente requer lógica complexa. Neste projeto, implementei uma função ```sleep``` customizada combinada com ```async/await``` dentro dos loops de ordenação. Isso permite que a interface (UI) seja atualizada visualmente a cada passo sem travar a thread principal do JavaScript.
 
 ```javascript
-// Custom delay function to control animation speed
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
+// Função de delay para controlar a velocidade da animação
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));```
 ```
-### 2. State Management & Immutability
-Used ```useState``` and ```useRef``` to manage the array state and control the execution flow (preventing the user from breaking the app while sorting is active).
+### 2. Gerenciamento de Estado e Imutabilidade
+Uso de useState para atualizar o array visualmente e useRef para controlar o fluxo de execução (impedindo que o usuário quebre a aplicação clicando em botões enquanto a ordenação acontece).
 
-### 3. Algorithm Implementation
-Bubble Sort: Implemented with nested loops, visualizing the "bubbling" effect of the largest elements.
+### 3. Implementação dos Algoritmos
+Bubble Sort: Implementado com loops aninhados, visualizando o efeito de "bolha" onde os maiores elementos flutuam para o final.
 
-Quick Sort: Implemented recursively using a partition logic, demonstrating understanding of "Divide and Conquer" strategies.
+Quick Sort: Implementado de forma recursiva utilizando a lógica de particionamento, demonstrando domínio de estratégias de "Dividir para Conquistar".
 
 ---
 
-💻 How to Run Locally
-1. Clone the repository
+💻 Como Rodar Localmente
+1. Clone o repositório
 ```javascript
 Bash
 ```
 ```javascript
-git clone[https://github.com/limawagner33/sorting-visualizer](https://github.com/limawagner33/sorting-visualizer.git)
+git clone [https://github.com/limawagner33/sorting-visualizer.git](https://github.com/limawagner33/sorting-visualizer.git)
 ```
-2. Install dependencies
+2. Instale as dependências
 ```javascript
 Bash
 ```
@@ -63,14 +62,12 @@ cd sorting-visualizer
 ```javascript
 npm install
 ```
-3. Start the development server
+3. Inicie o servidor de desenvolvimento
 ```javascript
 Bash
 ```
 ```javascript
 npm run dev
 ```
----
-
-📬 Contact
-Project developed by Wagner Lima. Connect with me on **[LinkedIn.](https://www.linkedin.com/in/wagner-matos-de-lima/)**
+📬 Contato
+Projeto desenvolvido por Wagner Lima. Conecte-se comigo no **[Linkedin](https://www.linkedin.com/in/wagner-matos-de-lima/)**.
