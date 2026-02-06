@@ -50,9 +50,9 @@ Quick Sort: Implemented recursively using a partition logic, demonstrating under
 ```javascript
 Bash
 ```
-
-```git **[clone](https://github.com/limawagner33/sorting-visualizer)**```
-
+```javascript
+git clone[https://github.com/limawagner33/sorting-visualizer](https://github.com/limawagner33/sorting-visualizer.git)
+```
 2. Install dependencies
 ```javascript
 Bash
