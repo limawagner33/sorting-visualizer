@@ -1,3 +1,4 @@
+/* Variáveis globais, reset de CSS e tipografia base */
 /* Garante que o app ocupe 100% da altura da tela */
 #root, .App {
   display: flex;
