@@ -35,7 +35,7 @@ Manipular animações em algoritmos de ordenação geralmente requer lógica com
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));```
 ```
 ### 2. Gerenciamento de Estado e Imutabilidade
-Uso de useState para atualizar o array visualmente e useRef para controlar o fluxo de execução (impedindo que o usuário quebre a aplicação clicando em botões enquanto a ordenação acontece).
+Uso de ```useState``` para atualizar o array visualmente e ```useRef``` para controlar o fluxo de execução (impedindo que o usuário quebre a aplicação clicando em botões enquanto a ordenação acontece).
 
 ### 3. Implementação dos Algoritmos
 Bubble Sort: Implementado com loops aninhados, visualizando o efeito de "bolha" onde os maiores elementos flutuam para o final.
