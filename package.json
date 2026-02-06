@@ -2,7 +2,7 @@
   "name": "visualizador-algoritmos",
   "description": "Visualizador de Algoritmos de Ordenação em React",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
