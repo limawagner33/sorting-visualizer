@@ -51,7 +51,7 @@ Quick Sort: Implemented recursively using a partition logic, demonstrating under
 Bash
 ```
 
-git clone [https://github.com/limawagner33/sorting-visualizer](https://github.com/your-username/sorting-visualizer.git)```
+git clone [https://github.com/limawagner33/sorting-visualizer](https://github.com/your-username/sorting-visualizer.git)
 
 2. Install dependencies
 ```javascript
@@ -59,11 +59,15 @@ Bash
 ```
 ```javascript
 cd sorting-visualizer
+```
+```javascript
 npm install
 ```
 3. Start the development server
 ```javascript
 Bash
+```
+```javascript
 npm run dev
 ```
 ---
