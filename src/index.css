@@ -1,0 +1,11 @@
+/* Garante que o app ocupe 100% da altura da tela */
+#root, .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* O conteúdo principal cresce para ocupar o espaço vazio */
+.content-wrap {
+  flex: 1;
+}
