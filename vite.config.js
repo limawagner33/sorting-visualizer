@@ -1,3 +1,4 @@
+// Configuração do Vite para o projeto de Algoritmos
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
