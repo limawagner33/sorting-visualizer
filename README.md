@@ -32,7 +32,7 @@ Handling animations in React usually requires complex libraries. In this project
 
 ```javascript
 // Custom delay function to control animation speed
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));```
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 ```
 ### 2. State Management & Immutability
