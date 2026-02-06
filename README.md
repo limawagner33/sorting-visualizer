@@ -36,7 +36,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));```
 
 ```
 ### 2. State Management & Immutability
-Used useState and useRef to manage the array state and control the execution flow (preventing the user from breaking the app while sorting is active).
+Used ```useState``` and ```useRef``` to manage the array state and control the execution flow (preventing the user from breaking the app while sorting is active).
 
 ### 3. Algorithm Implementation
 Bubble Sort: Implemented with nested loops, visualizing the "bubbling" effect of the largest elements.
