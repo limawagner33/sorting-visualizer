@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <p>
-          Desenvolvido com 🩵 por <strong>Wagner</strong>
+          Desenvolvido com React por <strong>Wagner Lima</strong>
         </p>
         
         <div className="footer-links">

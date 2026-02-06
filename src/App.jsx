@@ -1,6 +1,5 @@
 import SortingVisualizer from './SortingVisualizer';
-import Footer from './Footer'; 
-import './App.css'; 
+import Footer from './Footer';
 
 function App() {
   return (
